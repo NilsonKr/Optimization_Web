@@ -124,7 +124,7 @@ ul:hover {
 
 .main h2 {
   color: white;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 body .main .search-input {
@@ -175,7 +175,7 @@ footer a:hover {
 }
 
 .carousel {
-  overflow: scroll;
+  overflow-x: scroll;
   padding-left: 30px;
   width: 100%;
   position: relative;
@@ -269,19 +269,4 @@ footer a:hover {
   color: white;
   font-size: 6px;
   margin: 0px;
-}
-
-/**
- * Media Queries
- *******************************************
- */
-@media only screen and (max-width: 600px) {
-  .main h2 {
-    font-size: 24px;
-  }
-
-  footer {
-    align-items: flex-start;
-    flex-direction: column;
-  }
 }

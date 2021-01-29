@@ -13,7 +13,17 @@ const config = {
   },
   devServer: {
     contentBase: '.',
+    watchContentBase: true,
   },
+  /* module : {
+    rules: [
+      {
+        test: /\.js$/,
+        enforce: 'pre',
+        use: ['source-map-loader'],    
+      }
+    ]
+  } */
 }
 
 module.exports = config
