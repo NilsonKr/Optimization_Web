@@ -1,3 +1,7 @@
+# Optimization_Web
+
+How to optimizate a web
+
 <p align="center">
   <a href="https://platzi.com/cursos/web-performance" target="_blank">
     <img alt="Curso Optimizacion Web en Platzi" src="https://static.platzi.com/media/achievements/badge-optimizacion-web-183eef1c-d7e3-4f43-b680-f12f428c6484.png" width="60" />
@@ -14,33 +18,32 @@
 
 [Curso de optimización web](https://platzi.com/cursos/web-performance) dictado por [@jonalvarezz](https://twitter.com/jonalvarezz) para [Platzi](https://platzi.com)
 
-* [Cómo trabajar en este proyecto?](#-cómo-trabajar-en-este-proyecto)
-* [Guía rápida](#-gu%C3%ADa-rápida)
-* [Optimizaciones aplicadas](#-optimizaciones-aplicadas)
-* [Encontraste un error o mejora?](#-encontraste-un-error-o-mejora)
+- [Cómo trabajar en este proyecto?](#-cómo-trabajar-en-este-proyecto)
+- [Guía rápida](#-gu%C3%ADa-rápida)
+- [Optimizaciones aplicadas](#-optimizaciones-aplicadas)
+- [Encontraste un error o mejora?](#-encontraste-un-error-o-mejora)
 
 ### 🔎 Cómo trabajar en este proyecto?
+
 El curso es totalmente práctico y progresivo este repositorio sólo existe como una guía para cuando lo necesites. Puedes realizar todo el curso en tu propio proyecto y tu propio repositorio.
 
-Avanzamos en el curso a un nuevo tema y no puedes o no quieres completar los cambios anteriores para continuar? 
+Avanzamos en el curso a un nuevo tema y no puedes o no quieres completar los cambios anteriores para continuar?
 Empieza desde la etiqueta git correspondiente al módulo del curso.
 
-
 1.  Actualiza la información de las etiquetas:
-    
+
     > Anteriormente debiste clonar este repositorio tal como lo hicimos en clase.
 
     ```sh
     git fetch --tags
     ```
-    
 
-1.  Lista las etiquetas disponibles:
+1)  Lista las etiquetas disponibles:
 
     ```sh
     git tag
     ```
-    
+
     Deberías ver algo como:
 
     ```sh
@@ -52,7 +55,7 @@ Empieza desde la etiqueta git correspondiente al módulo del curso.
     ...
     ```
 
-1.  Inicia un nuevo branch desde el punto que desees:
+1)  Inicia un nuevo branch desde el punto que desees:
 
     ```sh
     git checkout -b el-nombre-de-mi-branch etiqueta-elegida
@@ -62,12 +65,13 @@ Empieza desde la etiqueta git correspondiente al módulo del curso.
     ```
 
     Eso es todo, ya puedes iniciar con todos los cambios incluídos hasta ese módulo. En la [sección Tags de GitHub](https://github.com/jonalvarezz/platzi-optimizacion-web/tags), encuentras más información de cada etiqueta.
-    
 
 #### Bonus: Cómo subo mis cambios a otro repositorio?
+
 Git permite manejar varios repositorios remotos en una misma copia local. [Aquí encuentras más información](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes) y te dejaré el cheatsheet a continuación:
+
 ```sh
-# Crea tu nuevo repositorio en GitHub/GitLab/otro. 
+# Crea tu nuevo repositorio en GitHub/GitLab/otro.
 # Asumamos la URL es git@github.com:jonalvarezz/mi-repo-mas-bello.git
 # Agrega el nuevo remote
 
@@ -80,7 +84,6 @@ git push mi-repo branch-a-hacer-push
 # Para pull
 git pull mi-repo branch-a-hacer-push
 ```
-
 
 ### 🤖 Guía Rápida
 
@@ -120,8 +123,6 @@ git pull mi-repo branch-a-hacer-push
 
     El sitio estará disponible en http://localhost:5000.
 
-
-
 ### 🚀 Optimizaciones aplicadas
 
 1. Elimina bloqueo en etiquetas `script`.
@@ -151,10 +152,11 @@ git pull mi-repo branch-a-hacer-push
 1. Guarda assets en el cache del navegador con Service Workers.
 1. Automatiza Performance Audits con Lighthouse y GitHub Actions.
 
-
 ### 🐞 Encontraste un error o mejora?
+
 Ayuda a otros estudiantes con eso que acabas de descubrir que haría este curso y respositorio mucho mejor.
-* En [Issues](https://github.com/jonalvarezz/platzi-optimizacion-web/issues/new) puedes reportar errores, agregar sugerencias y comentarios.
-* Por su parte, los [Pull Request](https://github.com/jonalvarezz/platzi-optimizacion-web/pulls) siempre estarán abiertos para recibir mejoras puntuales.
+
+- En [Issues](https://github.com/jonalvarezz/platzi-optimizacion-web/issues/new) puedes reportar errores, agregar sugerencias y comentarios.
+- Por su parte, los [Pull Request](https://github.com/jonalvarezz/platzi-optimizacion-web/pulls) siempre estarán abiertos para recibir mejoras puntuales.
 
 Happy hacking!
