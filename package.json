@@ -5,7 +5,7 @@
   "author": "@jonalvarezz",
   "scripts": {
     "start": "npm run dev",
-    "dev": "webpack-dev-server",
+    "dev": "webpack-dev-server --open",
     "build": "webpack"
   },
   "prettier": {
