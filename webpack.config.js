@@ -13,6 +13,7 @@ const config = {
   },
   devServer: {
     contentBase: '.',
+    watchContentBase: true,
   },
 }
 

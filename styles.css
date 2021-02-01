@@ -2,9 +2,16 @@
  * Home page
  *******************************************
  */
+html {
+  font-family: cursive;
+}
+
+html.wf-active {
+  font-family: 'Muli', sans-serif;
+}
+
 body {
   margin: 0;
-  font-family: 'Muli', sans-serif;
   background: #21c08b;
   background-image: linear-gradient(#21c08b, #8f57fd);
 }
@@ -99,7 +106,7 @@ ul:hover {
   cursor: pointer;
 }
 
-.header__menu--profile > img {
+.header__menu--profile > svg {
   margin-right: 8px;
   width: 40px;
 }
@@ -169,7 +176,7 @@ footer a {
   width: 100%;
 }
 .carousel {
-  overflow: scroll;
+  overflow-x: scroll;
   padding-left: 30px;
   width: 100%;
   position: relative;
