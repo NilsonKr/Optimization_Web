@@ -1,7 +1,4 @@
 import h from 'hyperscript'
-import moment from 'moment'
-
-const relativeDate = dateStr => moment(dateStr, 'YYYY-MM-DD').fromNow()
 
 const Controls = ({ slug, youtubeVideoId }) =>
   h(
