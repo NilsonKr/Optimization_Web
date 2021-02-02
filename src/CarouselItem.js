@@ -1,4 +1,9 @@
 import h from 'hyperscript'
+import formatDistance from 'date-fns/formatDistance'
+import parseISO from 'date-fns/parseISO'
+
+const relativeDate = dateStr =>
+  formatDistance(parseISO(dateStr, 'YYYY-MM-DD'), new Date())
 
 const Controls = ({ slug, youtubeVideoId }) =>
   h(

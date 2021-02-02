@@ -24,13 +24,20 @@ const config = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/dist',
-    filename: 'bundle.js',
+    filename: '[name].bundle.js',
   },
   devServer: {
     contentBase: '.',
     watchContentBase: true,
   },
   plugins,
+  optimization: {
+    splitChunks: {
+      chunks: 'all' /* 
+      minSize: 0,
+      name: 'commons' */,
+    },
+  },
 }
 
 module.exports = config
